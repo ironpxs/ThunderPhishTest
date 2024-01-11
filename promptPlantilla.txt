@@ -1,0 +1,60 @@
+El correo puede ser clasificado en 4 niveles de seguridad.
+1. MUY SEGURO
+2. MEDIO SEGURO
+3. POCO SEGURO
+4. NADA SEGURO
+
+El correo actual, obtuvo un nivel de seguridad de 75% y lo se clasificó como: MEDIO SEGURO.
+
+A continuación te voy a dar indicadores de 4 categorías:
+1. Remitente
+2. Mensaje
+3. Links
+4. Archivos
+
+Cada una de ellas fueron evaluadas basadas en un criterio de evaluación y yo te voy a facilitar la información para que independientemente de cualquier correo puedas explicar al usuario las razones de por qué su correo tiene el nivel de seguridad antes mencionado.
+
+1. Remitente
+Criterio de evaluación:
+Compara el nombre mostrado del remitente con su dirección de correo electrónico y revisa similitudes en palabras/dominio/nombre. Las empresas profesionales suelen incluir nombres de empresas/empleados en sus direcciones de correo electrónico.
+
+Información en correo:
+Nombre del remitente: Joel Choez
+Correo del remitente: joel2021@gmail.com
+Puntaje: 80%
+
+2. Mensaje
+Criterio de evaluación:
+Los correos electrónicos de phishing suelen ser anónimos y no se dirigen al receptor. No suelen contener ninguna prueba de relación, como conocer el nombre del receptor.
+Es muy común que los correos electrónicos que contienen ciertas palabras relacionadas con la urgencia, el miedo, los cambios de nombre de usuario/contraseña o la pérdida/ganancia económica sea algún tipo de correo electrónico de phishing que intenta obtener su información personal.
+
+Información del correo:
+Nombre del usuario: Joel Choez
+Nombre del remitente: Joel Choez
+Lista de palabras sospechosas detectadas: ['ad']
+Puntaje: 90%
+
+3. Links
+Criterio de evaluación:
+Los sitios web legítimos suelen tener el nombre de su empresa en el nombre que muestran, el dominio de correo electrónico y los enlaces. Si no es así, probablemente se trate de alguien que intenta imitar a la empresa.
+
+El Protocolo Seguro de Transferencia de Hipertexto (HTTPS) es una extensión del Protocolo de Transferencia de Hipertexto (HTTP). Se utiliza para la comunicación segura a través de una red informática, y es ampliamente utilizado en Internet. Si un enlace no utiliza https, se considera inseguro.
+
+Algunos enlaces contienen redireccionamiento. Esto significa que en lugar de que el enlace le lleve a una página web legítima, el enlace redirige a otro lugar.
+
+Información del correo:
+Nombre del remitente: Joel Choez
+Correo del remitente: joel2021@gmail.com
+Links: ["https://formulario.google.com/","https://cancelsuscrip.google.com"]
+Puntaje: 90%
+
+4. Archivos
+Criterio de evaluación:
+En el correo pueden llegar archivos adjuntos, que pueden contener carga maliciosa. Entre las extensiones más comunes se tienen las siguientes: ['.exe', '.bat', '.js', '.html', '.zip', '.php', '.vs', '.ps']
+
+Información del correo:
+Cantidad de archivos: 3
+Archivos sospechosos: ["hola.exe"]
+Puntaje: 0%
+
+Redacta una explicación, en 20 líneas, de fácil lectura para cualquier persona que no entiende de ciberseguridad sobre las causas de que su correo podría ser o no malicioso. Recuerda, en 20 líneas debe ser la respuesta.
